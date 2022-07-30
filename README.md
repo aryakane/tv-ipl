@@ -3,7 +3,7 @@
 API automation repo
 - [API Automation](#api-automation)
     - [Pre Requisites](#pre-reqs)
-        - [Cypress installation](#install-cypress)
+        - [Configure project](#configure-project)
     - [Test execution](#cypress-test-execution)
     - [Folder structure](#folder-structure
     - [Useful links](#useful-links)
@@ -11,10 +11,12 @@ API automation repo
 
 
 ## Pre Requisites
-### Cypress installation
-1. Run command `npm install cypress --save-dev`
-2. Run `./node_modules/.bin/cypress open` 
-3. Select e2e testing option and browser of your choice to open test-runner
+### Configure project
+1. Install nodejs on your machine if not present
+2. Clone this repository
+3. Run command `npm install`
+4. Run `./node_modules/.bin/cypress open` 
+5. Select e2e testing option and browser of your choice to open test-runner
 
 ## Test execution
 1. Open terminal and run `npx cypress run --spec .\cypress\e2e\rcbTest.cy.js` to execute the tests
