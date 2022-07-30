@@ -5,7 +5,7 @@ API automation repo
     - [Pre Requisites](#pre-reqs)
         - [Configure project](#configure-project)
     - [Test execution](#cypress-test-execution)
-    - [Folder structure](#folder-structure
+    - [Folder structure](#folder-structure)
     - [Useful links](#useful-links)
     - [Note](#Note)
 
