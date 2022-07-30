@@ -17,9 +17,8 @@ API automation repo
 3. Select e2e testing option and browser of your choice to open test-runner
 
 ## Test execution
-1. Before starting the test exection, enter the credentials like apiKey, userID in environments.json file (located in root directory ) 
-2. Open terminal and run `npx cypress run --spec .\cypress\e2e\rcbTest.cy.js` to execute the tests
-3. During developement if you wish to run a particular test , makr that test as 'it.only'
+1. Open terminal and run `npx cypress run --spec .\cypress\e2e\rcbTest.cy.js` to execute the tests
+2. During developement if you wish to run a particular test , makr that test as 'it.only'
 
 ## Folder structure
 1. fixtures - Contains Test data to be used in suites/tests. 
